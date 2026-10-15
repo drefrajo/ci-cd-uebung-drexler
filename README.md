@@ -308,3 +308,7 @@ mvn -q -DskipTests=false test
 
 ## Ausblick
 - **Übung 2 (4.11.)**: GitHub Actions – Build & Tests automatisiert ausführen; SonarCloud integrieren.
+
+## Übung 1
+- Autor: Franz Josef Drexler
+- Besonderheit: Git gehört zu meinem täglichen Workflow, inklusive gelegentlicher OSS-Beiträge. Früher über die Editor-UI, inzwischen übernimmt mein Agent den Git-Workflow.
