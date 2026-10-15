@@ -21,6 +21,11 @@ class TextUtilsTest {
     }
 
     @Test
+    void safeParseInt_negativeNumber_returnsValue() {
+        assertEquals(-42, TextUtils.safeParseInt("-42"));
+    }
+
+    @Test
     void isPalindrome_caseInsensitive_expectedTrue() {
         assertTrue(TextUtils.isPalindrome("Anna"));
     }
